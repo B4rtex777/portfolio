@@ -21,7 +21,7 @@ export default function Contact () {
                         viewport={{ once: true }}>
             <SectionHeading>Kontakt </SectionHeading>
             <p className="text-gray-700 -mt-6 dark:text-white/80">Skontaktuj się ze mną bezpośrednio przez  {' '}
-                 <a className="underline" href="mailto:example@gmail.com">b.karpinski.kontakt@gmail.com </a>
+                 <a className="underline" href="mailto:b.karpinski.kontakt@gmail.com">b.karpinski.kontakt@gmail.com </a>
                 albo przez ten formularz
             </p>
             <form className="mt-10 flex flex-col dark:text-black"
@@ -31,7 +31,7 @@ export default function Contact () {
                       toast.error(error)
                       return
                     }
-                    toast.success('Email sent successfully')
+                    toast.success('Email wysłany prawidłowo')
                   }
                   }
 
@@ -39,11 +39,11 @@ export default function Contact () {
                 <input type="email"
                        name="senderEmail"
                        className='h-14 px-4 rounded-lg border border-black/10 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none'
-                       placeholder="Your email"
+                       placeholder="Twój email"
                         required={true}
                         maxLength={500}/>
                 <textarea name="message" className="h-52 my-3  resize-none
-  rounded-lg border border-black/10 p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"placeholder="Your message" required={true}
+  rounded-lg border border-black/10 p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"placeholder="Twoja wiadomość" required={true}
                           maxLength={5000}/>
                 <SubmitBtn></SubmitBtn>
             </form>

@@ -66,7 +66,7 @@ export const experiencesData = [
     description:
         '',
     icon: React.createElement(LuGraduationCap),
-    date: 'Now'
+    date: 'Teraz'
   }
 
 ] as const
@@ -104,8 +104,6 @@ export const skillsData = [
   'Next.js',
   'Git',
   'Tailwind',
-
   'Python',
-
   'Framer Motion'
 ] as const

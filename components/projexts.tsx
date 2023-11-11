@@ -7,9 +7,9 @@ import Project from '@/components/project'
 
 import { useSectionInWiev } from '@/lib/hooks'
 export default function Projects () {
-  const { ref } = useSectionInWiev('Projekty', 0.5)
+  const { ref } = useSectionInWiev('Start', 0.5)
   return (
-        <section ref={ref} id="Projekty" className="scroll-mt-28 mb-28">
+        <section ref={ref} id="Start" className="scroll-mt-28 mb-28">
             <SectionHeading>My Projects</SectionHeading>
             <div>
                 {projectsData.map((project, index) => (

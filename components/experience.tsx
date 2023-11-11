@@ -13,7 +13,7 @@ export default function Experience () {
   const { ref } = useSectionInWiev('Doświadczenie', 0.5)
   const { theme } = useTheme()
   return <section ref={ref} id="Doświadczenie" className="scroll-mt-28 mb-28 sm:mb-40">
-    <SectionHeading>My expeirence</SectionHeading>
+    <SectionHeading>Moje Doświadczenie</SectionHeading>
     <VerticalTimeline lineColor=''>
       {
         experiencesData.map((item, index) => (
